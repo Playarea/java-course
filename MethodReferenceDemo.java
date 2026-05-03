@@ -10,7 +10,7 @@ public class MethodReferenceDemo{
         System.out.println(upperNames);
 
         //Using forEach
+        System.out.println("\n Printing names by using forEach ...");
         upperNames.forEach(System.out::println);
-
     }
 }
